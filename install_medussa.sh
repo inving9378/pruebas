@@ -9,7 +9,7 @@ apt install -y apache2 mariadb-server php php-mbstring php-xml php-bcmath php-cu
 # Clonar el repositorio
 cd /var/www
 rm -rf medussa
-git clone https://github.com/inving9378/MedussaISPL.git medussa
+git clone https://github.com/inving9378/pruebas.git medussa
 cd medussa
 
 # Instalar dependencias de PHP con Composer
@@ -38,4 +38,4 @@ sed -i 's/DB_PASSWORD=.*/DB_PASSWORD=medussa_pass/' .env
 # Ejecutar migraciones
 php artisan migrate --force
 
-echo "✅ Medussa ha sido instalado correctamente en http://localhost/medussa/public"
+echo "✅ Medussa ha sido instalado correctamente aguevo ya quedo y ahora abre un navegador y visita http://localhost/medussa/public"
