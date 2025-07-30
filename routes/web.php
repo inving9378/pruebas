@@ -1,5 +1,9 @@
 <?php
 
+Route::get('/prueba', function () {
+    return 'Laravel funciona y responde rutas públicas.';
+});
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\FallaAdminController;
 
